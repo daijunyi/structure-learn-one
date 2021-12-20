@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a7cb281-81bb-4955-a22c-09c09363cbe4" name="Default Changelist" comment="" />
+    <list default="true" id="5a7cb281-81bb-4955-a22c-09c09363cbe4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +33,7 @@
     </option>
   </component>
   <component name="ProjectId" id="22TkeOPp7TAmQu2QiaJm5gg3CHP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -68,6 +71,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -79,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639869058901</updated>
       <workItem from="1639869272410" duration="5447000" />
-      <workItem from="1639979569432" duration="1888000" />
+      <workItem from="1639979569432" duration="2144000" />
     </task>
     <servers />
   </component>
@@ -91,6 +106,10 @@
       <screen x="0" y="25" width="1440" height="797" />
     </state>
     <state x="533" y="137" key="#com.intellij.ide.util.MemberChooser/0.25.1440.797@0.25.1440.797" timestamp="1639872048874" />
+    <state x="263" y="25" width="914" height="781" key="CommitChangelistDialog2" timestamp="1639982202530">
+      <screen x="0" y="25" width="1440" height="781" />
+    </state>
+    <state x="263" y="25" width="914" height="781" key="CommitChangelistDialog2/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1639982202530" />
     <state width="1398" height="130" key="GridCell.Tab.0.bottom" timestamp="1639982192205">
       <screen x="0" y="25" width="1440" height="781" />
     </state>
