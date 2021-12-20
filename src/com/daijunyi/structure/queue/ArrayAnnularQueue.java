@@ -134,10 +134,8 @@ public class ArrayAnnularQueue {
             System.out.println("队列满了");
             return false;
         }
-        arr[rear++] = value;
-        if (rear == maxSize){
-            rear = 0;
-        }
+        arr[rear] = value;
+        rear = (rear+1)%maxSize;
         return true;
     }
 
@@ -152,10 +150,7 @@ public class ArrayAnnularQueue {
         }
         int result = arr[front];
         arr[front] = 0;
-        front++;
-        if (front == maxSize){
-            front = 0;
-        }
+        front = (front+1)%maxSize;
         return result;
     }
 
