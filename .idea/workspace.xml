@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a7cb281-81bb-4955-a22c-09c09363cbe4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/daijunyi/structure/queue/ArrayAnnularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/daijunyi/structure/queue/ArrayAnnularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/structure-learn-one/META-INF/structure-learn-one.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daijunyi/structure/linked/HeroNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daijunyi/structure/linked/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daijunyi/structure/linked/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +61,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.ArrayAnnularQueueMain">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ArrayAnnularQueueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.daijunyi.structure.queue.ArrayAnnularQueueMain" />
       <module name="structure-learn-one" />
@@ -84,6 +88,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.daijunyi.structure.linked.Main" />
+      <module name="structure-learn-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.daijunyi.structure.linked.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SparseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.daijunyi.structure.sparse.SparseArray" />
       <module name="structure-learn-one" />
@@ -99,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ArrayAnnularQueueMain" />
         <item itemvalue="Application.ArrayQueueMain" />
         <item itemvalue="Application.SparseArray" />
@@ -128,7 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639869058901</updated>
       <workItem from="1639869272410" duration="5447000" />
-      <workItem from="1639979569432" duration="8653000" />
+      <workItem from="1639979569432" duration="16954000" />
     </task>
     <servers />
   </component>
@@ -140,36 +158,37 @@
       <screen x="0" y="25" width="1440" height="781" />
     </state>
     <state x="320" y="78" key="#Inspections/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1639992962590" />
-    <state x="533" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1639872048874">
-      <screen x="0" y="25" width="1440" height="797" />
+    <state x="533" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1640068148239">
+      <screen x="0" y="25" width="1440" height="781" />
     </state>
+    <state x="533" y="135" key="#com.intellij.ide.util.MemberChooser/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1640068148239" />
     <state x="533" y="137" key="#com.intellij.ide.util.MemberChooser/0.25.1440.797@0.25.1440.797" timestamp="1639872048874" />
     <state x="263" y="25" width="914" height="781" key="CommitChangelistDialog2" timestamp="1639982202530">
       <screen x="0" y="25" width="1440" height="781" />
     </state>
     <state x="263" y="25" width="914" height="781" key="CommitChangelistDialog2/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1639982202530" />
-    <state width="1398" height="129" key="GridCell.Tab.0.bottom" timestamp="1640002990981">
+    <state width="1398" height="67" key="GridCell.Tab.0.bottom" timestamp="1640074993440">
       <screen x="0" y="25" width="1440" height="781" />
     </state>
-    <state width="1398" height="129" key="GridCell.Tab.0.bottom/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1640002990981" />
+    <state width="1398" height="67" key="GridCell.Tab.0.bottom/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1640074993440" />
     <state width="1398" height="313" key="GridCell.Tab.0.bottom/-1920.25.1920.1055/0.25.1440.799@0.25.1440.799" timestamp="1639978795935" />
     <state width="1398" height="256" key="GridCell.Tab.0.bottom/0.25.1440.797@0.25.1440.797" timestamp="1639871667284" />
-    <state width="1398" height="129" key="GridCell.Tab.0.center" timestamp="1640002990980">
+    <state width="1398" height="67" key="GridCell.Tab.0.center" timestamp="1640074993439">
       <screen x="0" y="25" width="1440" height="781" />
     </state>
-    <state width="1398" height="129" key="GridCell.Tab.0.center/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1640002990980" />
+    <state width="1398" height="67" key="GridCell.Tab.0.center/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1640074993439" />
     <state width="1398" height="313" key="GridCell.Tab.0.center/-1920.25.1920.1055/0.25.1440.799@0.25.1440.799" timestamp="1639978795934" />
     <state width="1398" height="256" key="GridCell.Tab.0.center/0.25.1440.797@0.25.1440.797" timestamp="1639871667283" />
-    <state width="1398" height="129" key="GridCell.Tab.0.left" timestamp="1640002990979">
+    <state width="1398" height="67" key="GridCell.Tab.0.left" timestamp="1640074993439">
       <screen x="0" y="25" width="1440" height="781" />
     </state>
-    <state width="1398" height="129" key="GridCell.Tab.0.left/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1640002990979" />
+    <state width="1398" height="67" key="GridCell.Tab.0.left/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1640074993439" />
     <state width="1398" height="313" key="GridCell.Tab.0.left/-1920.25.1920.1055/0.25.1440.799@0.25.1440.799" timestamp="1639978795933" />
     <state width="1398" height="256" key="GridCell.Tab.0.left/0.25.1440.797@0.25.1440.797" timestamp="1639871667282" />
-    <state width="1398" height="129" key="GridCell.Tab.0.right" timestamp="1640002990980">
+    <state width="1398" height="67" key="GridCell.Tab.0.right" timestamp="1640074993440">
       <screen x="0" y="25" width="1440" height="781" />
     </state>
-    <state width="1398" height="129" key="GridCell.Tab.0.right/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1640002990980" />
+    <state width="1398" height="67" key="GridCell.Tab.0.right/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1640074993440" />
     <state width="1398" height="313" key="GridCell.Tab.0.right/-1920.25.1920.1055/0.25.1440.799@0.25.1440.799" timestamp="1639978795934" />
     <state width="1398" height="256" key="GridCell.Tab.0.right/0.25.1440.797@0.25.1440.797" timestamp="1639871667283" />
     <state width="1398" height="191" key="GridCell.Tab.1.bottom" timestamp="1640000887563">
@@ -188,5 +207,9 @@
       <screen x="0" y="25" width="1440" height="781" />
     </state>
     <state width="1398" height="191" key="GridCell.Tab.1.right/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1640000887562" />
+    <state x="385" y="130" width="670" height="676" key="search.everywhere.popup" timestamp="1640067174043">
+      <screen x="0" y="25" width="1440" height="781" />
+    </state>
+    <state x="385" y="130" width="670" height="676" key="search.everywhere.popup/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1640067174043" />
   </component>
 </project>
