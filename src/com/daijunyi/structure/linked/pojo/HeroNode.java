@@ -1,4 +1,4 @@
-package com.daijunyi.structure.linked;
+package com.daijunyi.structure.linked.pojo;
 
 /**
  * @author djy

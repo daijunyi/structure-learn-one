@@ -20,3 +20,11 @@ Learning algorithms and data structures
     - 删除
     - 修改
     - 排序添加
+- 带head头的双向链表
+    - 反转
+    - 添加
+    - 删除
+    - 修改
+    - 排序添加
+- 单向环形链表
+    - 约瑟夫问题
