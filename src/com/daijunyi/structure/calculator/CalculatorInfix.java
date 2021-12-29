@@ -15,7 +15,7 @@ class CalculatorInfixMain{
 /**
  * @author djy
  * @createTime 2021/12/27 下午8:48
- * @description 中缀计算器
+ * @description 中缀计算器，不考虑（）不考虑小数，考虑加减乘除
  */
 public class CalculatorInfix {
 
