@@ -7,9 +7,9 @@ import java.math.BigDecimal;
 
 class CalculatorInfixBracketAndDecimalsMain{
     public static void main(String[] args) {
-        BigDecimal compute = CalculatorInfixBracketAndDecimals.compute("6.2-8*(5+2)");
+        BigDecimal compute = CalculatorInfixBracketAndDecimals.compute("6.2-8*(5+2)/2");
         System.out.println("结果"+compute.toString());
-        BigDecimal compute1 = CalculatorInfixBracketAndDecimals.compute("10-1002-2+100*400+2");
+        BigDecimal compute1 = CalculatorInfixBracketAndDecimals.compute("10.55-1002.3/2*(3-2)+100.2*400+2");
         System.out.println("结果"+compute1.toString());
     }
 }
