@@ -65,14 +65,7 @@ public class CalculatorInfix {
             if (s.matches("^\\d+$")){
                 numberCache += s;
                 //数字
-                if (index+1 <expression.length()){
-                    String nextV = expression.substring(index + 1, index+2);
-                    if (nextV.matches("^\\d$")){
-
-                    }else{
-                        numberStack.push(Integer.valueOf(numberCache));
-                        numberCache = "";
-                    }
+                if (index+1 <expression.length() && expression.substring(index + 1, index+2).matches("^\\d$")){
                 }else{
                     numberStack.push(Integer.valueOf(numberCache));
                     numberCache = "";

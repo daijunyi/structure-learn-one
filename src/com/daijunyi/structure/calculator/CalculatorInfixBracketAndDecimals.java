@@ -69,14 +69,7 @@ public class CalculatorInfixBracketAndDecimals {
             if (checkIsNumber(s)){
                 numberCache += s;
                 //数字
-                if (index+1 <expression.length()){
-                    String nextV = expression.substring(index + 1, index+2);
-                    if (checkIsNumber(nextV)){
-
-                    }else{
-                        numberStack.push(new BigDecimal(numberCache));
-                        numberCache = "";
-                    }
+                if (index+1 <expression.length() && checkIsNumber(expression.substring(index + 1, index+2))){
                 }else{
                     numberStack.push(new BigDecimal(numberCache));
                     numberCache = "";
@@ -119,6 +112,8 @@ public class CalculatorInfixBracketAndDecimals {
     public static BigDecimal compute(BigDecimal front, BigDecimal rear, String operator){
         switch (operator){
             case "*":
+            case "X":
+            case "x":
                 return front.multiply(rear);
             case "/":
                 return front.divide(rear);
