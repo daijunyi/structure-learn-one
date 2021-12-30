@@ -116,7 +116,7 @@ public class CalculatorInfixBracketAndDecimals {
         return s.matches("^\\d+$") || s.matches("^\\.{1}$");
     }
 
-    private static BigDecimal compute(BigDecimal front, BigDecimal rear, String operator){
+    public static BigDecimal compute(BigDecimal front, BigDecimal rear, String operator){
         switch (operator){
             case "*":
                 return front.multiply(rear);
