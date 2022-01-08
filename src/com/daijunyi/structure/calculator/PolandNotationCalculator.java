@@ -20,6 +20,8 @@ class PolandNotationCalculatorMain{
  * @author djy
  * @createTime 2021/12/30 下午2:05
  * @description 逆波兰计算器
+ * 中缀转后缀
+ * 逆波兰计算器
  */
 public class PolandNotationCalculator {
 
@@ -95,7 +97,7 @@ public class PolandNotationCalculator {
     }
 
     /**
-     * 中缀计算
+     * 中缀计算结果
      * @param expression
      * @return
      */
@@ -105,7 +107,7 @@ public class PolandNotationCalculator {
     }
 
     /**
-     * 后缀计算
+     * 后缀计算结果
      * @param expression
      * @return
      */
