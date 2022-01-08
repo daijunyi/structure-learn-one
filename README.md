@@ -41,3 +41,6 @@ Learning algorithms and data structures
     - 希尔排序
     - 快速排序
         - 填坑快速排序 
+        - 交换
+        - 单指针排序
+        - 填坑优化排序

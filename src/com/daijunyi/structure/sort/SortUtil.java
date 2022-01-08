@@ -56,7 +56,7 @@ public class SortUtil {
      * @param sort
      */
     public static void bigTest(Sort sort){
-        int size = 8000000;
+        int size = 80000;
         Integer[] arrayMax = SortUtil.getRandomInteger(size);
         System.out.println("开始排序"+size+"个数据");
         long start = System.currentTimeMillis();
