@@ -2,9 +2,17 @@ package com.daijunyi.structure.sort;
 
 class SelectionSortMain{
     public static void main(String[] args) {
-        SortUtil.smallTest(new SelectionSort());
-        SortUtil.middleTest(new SelectionSort());
-        SortUtil.bigTest(new SelectionSort());
+//        SortUtil.smallTest(new SelectionSort());
+//        SortUtil.middleTest(new SelectionSort());
+//        SortUtil.bigTest(new SelectionSort());
+        SortUtil.sort(new SelectionSort(),1000);
+        SortUtil.sort(new SelectionSort(),5000);
+        SortUtil.sort(new SelectionSort(),10000);
+        SortUtil.sort(new SelectionSort(),100000);
+        SortUtil.sort(new SelectionSort(),1000000);
+        SortUtil.sort(new SelectionSort(),10000000);
+        SortUtil.sort(new SelectionSort(),50000000);
+        SortUtil.sort(new SelectionSort(),100000000);
     }
 }
 

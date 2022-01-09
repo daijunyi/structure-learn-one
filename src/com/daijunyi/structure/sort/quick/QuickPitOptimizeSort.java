@@ -1,13 +1,23 @@
 package com.daijunyi.structure.sort.quick;
 
+import com.daijunyi.structure.sort.MergeSort;
 import com.daijunyi.structure.sort.Sort;
 import com.daijunyi.structure.sort.SortUtil;
 
 class QuickPitOptimizeSortMain {
     public static void main(String[] args) {
-        SortUtil.smallTest(new QuickPitOptimizeSort());
-        SortUtil.middleTest(new QuickPitOptimizeSort());
-        SortUtil.bigTest(new QuickPitOptimizeSort());
+//        SortUtil.smallTest(new QuickPitOptimizeSort());
+//        SortUtil.middleTest(new QuickPitOptimizeSort());
+//        SortUtil.bigTest(new QuickPitOptimizeSort());
+
+        SortUtil.sort(new QuickPitOptimizeSort(),1000);
+        SortUtil.sort(new QuickPitOptimizeSort(),5000);
+        SortUtil.sort(new QuickPitOptimizeSort(),10000);
+        SortUtil.sort(new QuickPitOptimizeSort(),100000);
+        SortUtil.sort(new QuickPitOptimizeSort(),1000000);
+        SortUtil.sort(new QuickPitOptimizeSort(),10000000);
+        SortUtil.sort(new QuickPitOptimizeSort(),50000000);
+        SortUtil.sort(new QuickPitOptimizeSort(),100000000);
     }
 }
 

@@ -1,13 +1,23 @@
 package com.daijunyi.structure.sort.quick;
 
+import com.daijunyi.structure.sort.DonaldShellSort;
 import com.daijunyi.structure.sort.Sort;
 import com.daijunyi.structure.sort.SortUtil;
 
 class QuickSortMain {
     public static void main(String[] args) {
-        SortUtil.smallTest(new QuickPitSort());
-        SortUtil.middleTest(new QuickPitSort());
-        SortUtil.bigTest(new QuickPitSort());
+//        SortUtil.smallTest(new QuickPitSort());
+//        SortUtil.middleTest(new QuickPitSort());
+//        SortUtil.bigTest(new QuickPitSort());
+
+        SortUtil.sort(new QuickPitSort(),1000);
+        SortUtil.sort(new QuickPitSort(),5000);
+        SortUtil.sort(new QuickPitSort(),10000);
+        SortUtil.sort(new QuickPitSort(),100000);
+        SortUtil.sort(new QuickPitSort(),1000000);
+        SortUtil.sort(new QuickPitSort(),10000000);
+        SortUtil.sort(new QuickPitSort(),50000000);
+        SortUtil.sort(new QuickPitSort(),100000000);
     }
 }
 

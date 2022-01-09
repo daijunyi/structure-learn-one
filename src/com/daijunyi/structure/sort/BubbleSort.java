@@ -2,9 +2,18 @@ package com.daijunyi.structure.sort;
 
 class BubbleSortMain{
     public static void main(String[] args) {
-        SortUtil.smallTest(new BubbleSort());
-        SortUtil.middleTest(new BubbleSort());
-        SortUtil.bigTest(new BubbleSort());
+//        SortUtil.smallTest(new BubbleSort());
+//        SortUtil.middleTest(new BubbleSort());
+//        SortUtil.bigTest(new BubbleSort());
+
+        SortUtil.sort(new BubbleSort(),1000);
+        SortUtil.sort(new BubbleSort(),5000);
+        SortUtil.sort(new BubbleSort(),10000);
+        SortUtil.sort(new BubbleSort(),100000);
+        SortUtil.sort(new BubbleSort(),1000000);
+        SortUtil.sort(new BubbleSort(),10000000);
+        SortUtil.sort(new BubbleSort(),50000000);
+        SortUtil.sort(new BubbleSort(),100000000);
     }
 }
 

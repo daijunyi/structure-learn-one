@@ -2,9 +2,18 @@ package com.daijunyi.structure.sort;
 
 class DonaldShellSortMain {
     public static void main(String[] args) {
-        SortUtil.smallTest(new DonaldShellSort());
-        SortUtil.middleTest(new DonaldShellSort());
-        SortUtil.bigTest(new DonaldShellSort());
+//        SortUtil.smallTest(new DonaldShellSort());
+//        SortUtil.middleTest(new DonaldShellSort());
+//        SortUtil.bigTest(new DonaldShellSort());
+
+        SortUtil.sort(new DonaldShellSort(),1000);
+        SortUtil.sort(new DonaldShellSort(),5000);
+        SortUtil.sort(new DonaldShellSort(),10000);
+        SortUtil.sort(new DonaldShellSort(),100000);
+        SortUtil.sort(new DonaldShellSort(),1000000);
+        SortUtil.sort(new DonaldShellSort(),10000000);
+        SortUtil.sort(new DonaldShellSort(),50000000);
+        SortUtil.sort(new DonaldShellSort(),100000000);
     }
 }
 

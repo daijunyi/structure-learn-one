@@ -5,9 +5,18 @@ import com.daijunyi.structure.sort.SortUtil;
 
 class QuickSingleSwapSortMain{
     public static void main(String[] args) {
-        SortUtil.smallTest(new QuickSingleSwapSort());
-        SortUtil.middleTest(new QuickSingleSwapSort());
-        SortUtil.bigTest(new QuickSingleSwapSort());
+//        SortUtil.smallTest(new QuickSingleSwapSort());
+//        SortUtil.middleTest(new QuickSingleSwapSort());
+//        SortUtil.bigTest(new QuickSingleSwapSort());
+
+        SortUtil.sort(new QuickSingleSwapSort(),1000);
+        SortUtil.sort(new QuickSingleSwapSort(),5000);
+        SortUtil.sort(new QuickSingleSwapSort(),10000);
+        SortUtil.sort(new QuickSingleSwapSort(),100000);
+        SortUtil.sort(new QuickSingleSwapSort(),1000000);
+        SortUtil.sort(new QuickSingleSwapSort(),10000000);
+        SortUtil.sort(new QuickSingleSwapSort(),50000000);
+        SortUtil.sort(new QuickSingleSwapSort(),100000000);
     }
 }
 /**

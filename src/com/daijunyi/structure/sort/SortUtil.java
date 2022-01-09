@@ -22,6 +22,14 @@ public class SortUtil {
         return integers;
     }
 
+    public static int[] getRandomInt(int size){
+        int[] integers = new int[size];
+        for (int i=0;i<size;i++){
+            integers[i] = (int)(Math.random()*size);
+        }
+        return integers;
+    }
+
     /**
      * 排序测试
      * @param sort
@@ -56,13 +64,32 @@ public class SortUtil {
      * @param sort
      */
     public static void bigTest(Sort sort){
-        int size = 80000;
+        int size = 8000000;
         Integer[] arrayMax = SortUtil.getRandomInteger(size);
         System.out.println("开始排序"+size+"个数据");
         long start = System.currentTimeMillis();
         sort.sort(arrayMax);
         long m = (System.currentTimeMillis()-start)/1000;
         System.out.println("排序时间:"+m+"秒");
+    }
+
+    public static void sort(Sort sort,int size){
+        Integer[] arrayMax = SortUtil.getRandomInteger(size);
+        long start = System.currentTimeMillis();
+        sort.sort(arrayMax);
+        long m = (System.currentTimeMillis()-start)/1000;
+        long s = (System.currentTimeMillis()-start)%1000;
+        System.out.println(sort.getClass().getName()+"："+size+"个数据排序时间:"+m+"秒"+s+"毫秒");
+    }
+
+    public static void sortInt(int size){
+        int size1 = size;
+        int[] arrayMax1 = SortUtil.getRandomInt(size1);
+        long start1 = System.currentTimeMillis();
+        new RadixSort().sort(arrayMax1);
+        long m = (System.currentTimeMillis()-start1)/1000;
+        long s = (System.currentTimeMillis()-start1)%1000;
+        System.out.println("基数排序："+size+"个数据排序时间:"+m+"秒"+s+"毫秒");
     }
 
 }

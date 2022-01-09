@@ -44,3 +44,5 @@ Learning algorithms and data structures
         - 交换
         - 单指针排序
         - 填坑优化排序
+        - 归并排序
+        - 基数排序

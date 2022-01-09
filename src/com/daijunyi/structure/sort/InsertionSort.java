@@ -2,9 +2,18 @@ package com.daijunyi.structure.sort;
 
 class InsertionSortMain {
     public static void main(String[] args) {
-        SortUtil.smallTest(new InsertionSort());
-        SortUtil.middleTest(new InsertionSort());
-        SortUtil.bigTest(new InsertionSort());
+//        SortUtil.smallTest(new InsertionSort());
+//        SortUtil.middleTest(new InsertionSort());
+//        SortUtil.bigTest(new InsertionSort());
+
+        SortUtil.sort(new InsertionSort(),1000);
+        SortUtil.sort(new InsertionSort(),5000);
+        SortUtil.sort(new InsertionSort(),10000);
+        SortUtil.sort(new InsertionSort(),100000);
+        SortUtil.sort(new InsertionSort(),1000000);
+        SortUtil.sort(new InsertionSort(),10000000);
+        SortUtil.sort(new InsertionSort(),50000000);
+        SortUtil.sort(new InsertionSort(),100000000);
     }
 }
 
