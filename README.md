@@ -46,3 +46,12 @@ Learning algorithms and data structures
         - 填坑优化排序
         - 归并排序
         - 基数排序
+- 二叉树
+    - 遍历
+        - 中序
+        - 前序
+        - 后序
+    - 查找
+        - 前序
+        - 中序
+        - 后序
