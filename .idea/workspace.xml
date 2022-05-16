@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a7cb281-81bb-4955-a22c-09c09363cbe4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/daijunyi/structure/sort/HeadSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/daijunyi/structure/tree/ArrayBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/daijunyi/structure/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/daijunyi/structure/tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/daijunyi/structure/sort/HeadSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/daijunyi/structure/sort/HeadSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +189,7 @@
       <workItem from="1652671635655" duration="705000" />
       <workItem from="1652679630115" duration="196000" />
       <workItem from="1652689244822" duration="489000" />
-      <workItem from="1652691583879" duration="3315000" />
+      <workItem from="1652691583879" duration="3757000" />
     </task>
     <servers />
   </component>

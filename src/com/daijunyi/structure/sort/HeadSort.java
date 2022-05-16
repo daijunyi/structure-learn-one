@@ -32,6 +32,7 @@ public class HeadSort implements Sort {
         for (int i = source.length / 2 - 1; i >= 0; i--) {
             adjustHead(source, i, source.length);
         }
+        //2，进行交换，再调整为大顶堆
         for (int length = source.length - 1; length > 0; length--) {
             T tmp = source[length];
             source[length] = source[0];
@@ -50,14 +51,18 @@ public class HeadSort implements Sort {
     public <T extends Comparable<T>> void adjustHead(T[] source, int i, int length) {
         T temp = source[i];
         //左子节点
+        //从当前给的非叶子节点的左节点遍历到当前节点的下一个叶子节点
         for (int k = 2 * i + 1; k < length; k = k * 2 + 1) {
+            //k+1 为i的下边的右节点。如果当前是左节点小于右节点，那就让右边的节点和非叶子节点进行进行比较
             if (k + 1 < length && source[k].compareTo(source[k + 1]) < 0) {
                 k++;
             }
+            //如果非叶子节点小于下边比较大的子节点，就相互交换，并且赋值新位置
             if (temp.compareTo(source[k]) < 0) {
                 source[i] = source[k];
                 i = k;
             } else {
+                //因为我们的原则是从最底部的左边的非叶子节点开始的，所以此处就可以直接break
                 break;
             }
         }
