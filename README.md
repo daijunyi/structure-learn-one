@@ -46,6 +46,7 @@ Learning algorithms and data structures
         - 填坑优化排序
         - 归并排序
         - 基数排序
+    - 堆排序
 - 二叉树
     - 遍历
         - 中序

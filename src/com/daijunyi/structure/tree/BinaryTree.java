@@ -1,5 +1,7 @@
 package com.daijunyi.structure.tree;
 
+import jdk.nashorn.internal.objects.NativeUint8Array;
+
 class BinaryTreeMain{
     public static void main(String[] args) {
         Node root = new Node(1, "张一");
@@ -33,6 +35,12 @@ class BinaryTreeMain{
         System.out.println("开始后序查找");
         binaryTree.postOrderSearch(5);
 
+
+        System.out.println("删除前前序遍历");
+        binaryTree.preOrder();
+        binaryTree.remove(5);
+        System.out.println("删除后前序遍历");
+        binaryTree.preOrder();
     }
 }
 
@@ -114,6 +122,19 @@ public class BinaryTree {
             return node;
         }
         return null;
+    }
+
+    public Boolean remove(int no){
+        if (root != null){
+            if (root.getNo().intValue() == no){
+                root = null;
+                return true;
+            }else{
+                return root.remove(no);
+            }
+        }else{
+            return false;
+        }
     }
 
 }
@@ -268,6 +289,32 @@ class Node{
             return this;
         }
         return findNode;
+    }
+
+
+    public boolean remove(int no){
+        if (left != null && left.getNo().intValue() == no){
+            left = null;
+            return true;
+        }
+
+        if (right != null && right.getNo().intValue() == no){
+            right = null;
+            return true;
+        }
+
+        if (left != null){
+            if(left.remove(no)){
+                return true;
+            }
+        }
+
+        if (right != null){
+            if (right.remove(no)){
+                return true;
+            }
+        }
+        return false;
     }
 
 }
