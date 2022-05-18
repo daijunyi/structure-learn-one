@@ -15,6 +15,15 @@ class HeadSortMain {
         for (int i=0;i<waitSortArray.length;i++){
             System.out.print(waitSortArray[i]+",");
         }
+        SortUtil.smallTest(headSort);
+        //1万数据测试
+        SortUtil.sort(headSort,10000);
+        //10万数据测试
+        SortUtil.sort(headSort,100000);
+        //100万数据测试
+        SortUtil.sort(headSort,1000000);
+        //800万数据
+        SortUtil.bigTest(headSort);
     }
 }
 
