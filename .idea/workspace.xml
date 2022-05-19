@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a7cb281-81bb-4955-a22c-09c09363cbe4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/daijunyi/structure/tree/HuffmanTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/daijunyi/structure/sort/HeadSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/daijunyi/structure/sort/HeadSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daijunyi/structure/huffmancode/HuffmanCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src/com/daijunyi/structure" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HuffmanTreeMain">
+  <component name="RunManager" selected="Application.HuffmanCodeMain">
     <configuration name="ArrayBinaryTreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.daijunyi.structure.tree.ArrayBinaryTreeMain" />
       <module name="structure-learn-one" />
@@ -94,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTabMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.daijunyi.structure.hash.HashTabMain" />
+    <configuration name="HeadSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.daijunyi.structure.sort.HeadSortMain" />
       <module name="structure-learn-one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.daijunyi.structure.hash.*" />
+          <option name="PATTERN" value="com.daijunyi.structure.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeadSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.daijunyi.structure.sort.HeadSortMain" />
+    <configuration name="HuffmanCodeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.daijunyi.structure.huffmancode.HuffmanCodeMain" />
       <module name="structure-learn-one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.daijunyi.structure.sort.*" />
+          <option name="PATTERN" value="com.daijunyi.structure.huffmancode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HuffmanCodeMain" />
         <item itemvalue="Application.HuffmanTreeMain" />
         <item itemvalue="Application.HeadSortMain" />
         <item itemvalue="Application.ArrayBinaryTreeMain" />
         <item itemvalue="Application.BinaryTreeMain" />
-        <item itemvalue="Application.HashTabMain" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +190,9 @@
       <workItem from="1652679630115" duration="196000" />
       <workItem from="1652689244822" duration="489000" />
       <workItem from="1652691583879" duration="5545000" />
-      <workItem from="1652781537953" duration="2187000" />
+      <workItem from="1652781537953" duration="4800000" />
+      <workItem from="1652927348004" duration="1159000" />
+      <workItem from="1652944865299" duration="5269000" />
     </task>
     <servers />
   </component>
@@ -213,7 +213,7 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="143" key="#com.intellij.ide.util.MemberChooser" timestamp="1652861625880">
+    <state x="533" y="143" key="#com.intellij.ide.util.MemberChooser" timestamp="1652948621325">
       <screen x="0" y="25" width="1440" height="843" />
     </state>
     <state x="533" y="135" key="#com.intellij.ide.util.MemberChooser/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1646038865613" />
@@ -222,12 +222,12 @@
     <state x="533" y="136" key="#com.intellij.ide.util.MemberChooser/0.25.1440.791@0.25.1440.791" timestamp="1646298404001" />
     <state x="533" y="137" key="#com.intellij.ide.util.MemberChooser/0.25.1440.797@0.25.1440.797" timestamp="1646126086219" />
     <state x="533" y="138" key="#com.intellij.ide.util.MemberChooser/0.25.1440.799@0.25.1440.799" timestamp="1646128406767" />
-    <state x="533" y="143" key="#com.intellij.ide.util.MemberChooser/0.25.1440.843@0.25.1440.843" timestamp="1652861625880" />
+    <state x="533" y="143" key="#com.intellij.ide.util.MemberChooser/0.25.1440.843@0.25.1440.843" timestamp="1652948621325" />
     <state width="480" height="465" key="DebuggerActiveHint" timestamp="1646128547766">
       <screen x="0" y="25" width="1440" height="799" />
     </state>
     <state width="480" height="465" key="DebuggerActiveHint/0.25.1440.799@0.25.1440.799" timestamp="1646128547766" />
-    <state width="1398" height="440" key="GridCell.Tab.0.bottom" timestamp="1652862361484">
+    <state width="1398" height="284" key="GridCell.Tab.0.bottom" timestamp="1652950192508">
       <screen x="0" y="25" width="1440" height="843" />
     </state>
     <state width="1398" height="59" key="GridCell.Tab.0.bottom/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1646034967192" />
@@ -236,8 +236,8 @@
     <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.25.1440.788@0.25.1440.788" timestamp="1646291497878" />
     <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.25.1440.791@0.25.1440.791" timestamp="1646300559394" />
     <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.25.1440.799@0.25.1440.799" timestamp="1646128785376" />
-    <state width="1398" height="440" key="GridCell.Tab.0.bottom/0.25.1440.843@0.25.1440.843" timestamp="1652862361484" />
-    <state width="1398" height="440" key="GridCell.Tab.0.center" timestamp="1652862361483">
+    <state width="1398" height="284" key="GridCell.Tab.0.bottom/0.25.1440.843@0.25.1440.843" timestamp="1652950192508" />
+    <state width="1398" height="284" key="GridCell.Tab.0.center" timestamp="1652950192507">
       <screen x="0" y="25" width="1440" height="843" />
     </state>
     <state width="1398" height="59" key="GridCell.Tab.0.center/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1646034967191" />
@@ -246,8 +246,8 @@
     <state width="1398" height="190" key="GridCell.Tab.0.center/0.25.1440.788@0.25.1440.788" timestamp="1646291497878" />
     <state width="1398" height="209" key="GridCell.Tab.0.center/0.25.1440.791@0.25.1440.791" timestamp="1646300559393" />
     <state width="1398" height="180" key="GridCell.Tab.0.center/0.25.1440.799@0.25.1440.799" timestamp="1646128785375" />
-    <state width="1398" height="440" key="GridCell.Tab.0.center/0.25.1440.843@0.25.1440.843" timestamp="1652862361483" />
-    <state width="1398" height="440" key="GridCell.Tab.0.left" timestamp="1652862361482">
+    <state width="1398" height="284" key="GridCell.Tab.0.center/0.25.1440.843@0.25.1440.843" timestamp="1652950192507" />
+    <state width="1398" height="284" key="GridCell.Tab.0.left" timestamp="1652950192506">
       <screen x="0" y="25" width="1440" height="843" />
     </state>
     <state width="1398" height="59" key="GridCell.Tab.0.left/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1646034967190" />
@@ -256,8 +256,8 @@
     <state width="1398" height="190" key="GridCell.Tab.0.left/0.25.1440.788@0.25.1440.788" timestamp="1646291497877" />
     <state width="1398" height="209" key="GridCell.Tab.0.left/0.25.1440.791@0.25.1440.791" timestamp="1646300559393" />
     <state width="1398" height="180" key="GridCell.Tab.0.left/0.25.1440.799@0.25.1440.799" timestamp="1646128785374" />
-    <state width="1398" height="440" key="GridCell.Tab.0.left/0.25.1440.843@0.25.1440.843" timestamp="1652862361482" />
-    <state width="1398" height="440" key="GridCell.Tab.0.right" timestamp="1652862361483">
+    <state width="1398" height="284" key="GridCell.Tab.0.left/0.25.1440.843@0.25.1440.843" timestamp="1652950192506" />
+    <state width="1398" height="284" key="GridCell.Tab.0.right" timestamp="1652950192508">
       <screen x="0" y="25" width="1440" height="843" />
     </state>
     <state width="1398" height="59" key="GridCell.Tab.0.right/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1646034967191" />
@@ -266,42 +266,47 @@
     <state width="1398" height="190" key="GridCell.Tab.0.right/0.25.1440.788@0.25.1440.788" timestamp="1646291497878" />
     <state width="1398" height="209" key="GridCell.Tab.0.right/0.25.1440.791@0.25.1440.791" timestamp="1646300559394" />
     <state width="1398" height="180" key="GridCell.Tab.0.right/0.25.1440.799@0.25.1440.799" timestamp="1646128785375" />
-    <state width="1398" height="440" key="GridCell.Tab.0.right/0.25.1440.843@0.25.1440.843" timestamp="1652862361483" />
-    <state width="1398" height="190" key="GridCell.Tab.1.bottom" timestamp="1646291497880">
-      <screen x="0" y="25" width="1440" height="788" />
+    <state width="1398" height="284" key="GridCell.Tab.0.right/0.25.1440.843@0.25.1440.843" timestamp="1652950192508" />
+    <state width="1398" height="210" key="GridCell.Tab.1.bottom" timestamp="1652948720953">
+      <screen x="0" y="25" width="1440" height="843" />
     </state>
     <state width="1398" height="190" key="GridCell.Tab.1.bottom/0.25.1440.788@0.25.1440.788" timestamp="1646291497880" />
     <state width="1398" height="190" key="GridCell.Tab.1.bottom/0.25.1440.799@0.25.1440.799" timestamp="1646128580584" />
-    <state width="1398" height="190" key="GridCell.Tab.1.center" timestamp="1646291497879">
-      <screen x="0" y="25" width="1440" height="788" />
+    <state width="1398" height="210" key="GridCell.Tab.1.bottom/0.25.1440.843@0.25.1440.843" timestamp="1652948720953" />
+    <state width="1398" height="210" key="GridCell.Tab.1.center" timestamp="1652948720952">
+      <screen x="0" y="25" width="1440" height="843" />
     </state>
     <state width="1398" height="190" key="GridCell.Tab.1.center/0.25.1440.788@0.25.1440.788" timestamp="1646291497879" />
     <state width="1398" height="190" key="GridCell.Tab.1.center/0.25.1440.799@0.25.1440.799" timestamp="1646128580582" />
-    <state width="1398" height="190" key="GridCell.Tab.1.left" timestamp="1646291497879">
-      <screen x="0" y="25" width="1440" height="788" />
+    <state width="1398" height="210" key="GridCell.Tab.1.center/0.25.1440.843@0.25.1440.843" timestamp="1652948720952" />
+    <state width="1398" height="210" key="GridCell.Tab.1.left" timestamp="1652948720952">
+      <screen x="0" y="25" width="1440" height="843" />
     </state>
     <state width="1398" height="190" key="GridCell.Tab.1.left/0.25.1440.788@0.25.1440.788" timestamp="1646291497879" />
     <state width="1398" height="190" key="GridCell.Tab.1.left/0.25.1440.799@0.25.1440.799" timestamp="1646128580582" />
-    <state width="1398" height="190" key="GridCell.Tab.1.right" timestamp="1646291497879">
-      <screen x="0" y="25" width="1440" height="788" />
+    <state width="1398" height="210" key="GridCell.Tab.1.left/0.25.1440.843@0.25.1440.843" timestamp="1652948720952" />
+    <state width="1398" height="210" key="GridCell.Tab.1.right" timestamp="1652948720953">
+      <screen x="0" y="25" width="1440" height="843" />
     </state>
     <state width="1398" height="190" key="GridCell.Tab.1.right/0.25.1440.788@0.25.1440.788" timestamp="1646291497879" />
     <state width="1398" height="190" key="GridCell.Tab.1.right/0.25.1440.799@0.25.1440.799" timestamp="1646128580583" />
-    <state x="612" y="280" width="530" height="490" key="extract.method.dialog" timestamp="1646127684178">
-      <screen x="0" y="25" width="1440" height="799" />
+    <state width="1398" height="210" key="GridCell.Tab.1.right/0.25.1440.843@0.25.1440.843" timestamp="1652948720953" />
+    <state x="612" y="294" width="530" height="490" key="extract.method.dialog" timestamp="1652948979960">
+      <screen x="0" y="25" width="1440" height="843" />
     </state>
     <state x="612" y="274" key="extract.method.dialog/-1920.25.1920.1055/0.25.1440.781@0.25.1440.781" timestamp="1646034738383" />
     <state x="612" y="280" key="extract.method.dialog/0.25.1440.799@0.25.1440.799" timestamp="1646127684178" />
+    <state x="612" y="294" key="extract.method.dialog/0.25.1440.843@0.25.1440.843" timestamp="1652948979960" />
     <state x="383" y="173" width="674" height="490" key="find.popup" timestamp="1646298364890">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="383" y="173" width="674" height="490" key="find.popup/0.25.1440.791@0.25.1440.791" timestamp="1646298364890" />
-    <state x="385" y="139" width="670" height="730" key="search.everywhere.popup" timestamp="1652705920321">
+    <state x="385" y="139" width="670" height="730" key="search.everywhere.popup" timestamp="1652947503780">
       <screen x="0" y="25" width="1440" height="843" />
     </state>
     <state x="385" y="131" width="670" height="678" key="search.everywhere.popup/-1920.25.1920.1055/0.25.1440.785@0.25.1440.785" timestamp="1646042429750" />
     <state x="385" y="133" width="670" height="691" key="search.everywhere.popup/0.25.1440.799@0.25.1440.799" timestamp="1646126262886" />
-    <state x="385" y="139" width="670" height="730" key="search.everywhere.popup/0.25.1440.843@0.25.1440.843" timestamp="1652705920321" />
+    <state x="385" y="139" width="670" height="730" key="search.everywhere.popup/0.25.1440.843@0.25.1440.843" timestamp="1652947503780" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
