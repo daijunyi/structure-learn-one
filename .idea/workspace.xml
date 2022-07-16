@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a7cb281-81bb-4955-a22c-09c09363cbe4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/daijunyi/structure/tree/binary/BinarySortTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/daijunyi/structure/tree/binary/DsmUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/structure-learn-one/META-INF/structure-learn-one.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/daijunyi/structure/huffmancode/HuffmanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/daijunyi/structure/huffmancode/HuffmanCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daijunyi/structure/tree/avl/AVLTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +70,13 @@
       <recent name="$PROJECT_DIR$/src/com/daijunyi/structure" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySortTreeMain">
-    <configuration name="BinarySortTreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.daijunyi.structure.tree.binary.BinarySortTreeMain" />
+  <component name="RunManager" selected="Application.AVLTreeMain">
+    <configuration name="AVLTreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.daijunyi.structure.tree.avl.AVLTreeMain" />
       <module name="structure-learn-one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.daijunyi.structure.tree.binary.*" />
+          <option name="PATTERN" value="com.daijunyi.structure.tree.avl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeadSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.daijunyi.structure.sort.HeadSortMain" />
+    <configuration name="BinarySortTreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.daijunyi.structure.tree.binary.BinarySortTreeMain" />
       <module name="structure-learn-one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.daijunyi.structure.sort.*" />
+          <option name="PATTERN" value="com.daijunyi.structure.tree.binary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AVLTreeMain" />
         <item itemvalue="Application.BinarySortTreeMain" />
         <item itemvalue="Application.HuffmanCodeMain" />
         <item itemvalue="Application.HuffmanCode" />
         <item itemvalue="Application.HuffmanTreeMain" />
-        <item itemvalue="Application.HeadSortMain" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +217,7 @@
       <workItem from="1657180043478" duration="566000" />
       <workItem from="1657503575638" duration="1000" />
       <workItem from="1657860289517" duration="5701000" />
-      <workItem from="1657931220331" duration="322000" />
+      <workItem from="1657931220331" duration="4685000" />
     </task>
     <servers />
   </component>
